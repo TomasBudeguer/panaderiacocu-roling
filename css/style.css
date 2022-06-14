@@ -1,0 +1,34 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+@media all and (max-width: 767px){
+    .bannerPanaderia{
+        height: 250px;
+        object-fit: cover;
+    }
+}
+.filtroImagen1{
+    filter: grayscale(1);
+}
+
+.filtroImagen1:hover{
+    filter: grayscale(0);
+}
+
+.filtroImagen2{
+    filter: blur(5px);
+}
+
+.filtroImagen2:hover{
+    filter: blur(0px);
+}
+
+.filtroImagen3{
+    filter: brightness(0.1);
+}
+
+.filtroImagen3:hover{
+    filter: brightness(1);
+}
